@@ -1,0 +1,44 @@
+@import 'config';
+@import 'menu';
+@import 'home';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'responsive';
+
+// Header
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 1rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    .social-icons {
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+        display: flex;
+
+        a {
+            padding: .4rem;
+            @include transition;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: .4rem;
+    right: 1rem;
+    padding: 1rem;
+}
