@@ -164,9 +164,8 @@ ul {
     align-items: center;
     text-align: center;
     overflow: hidden;
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(img/model-1.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(img/model-1.jpg) top center;
     background-size: cover;
-    background-repeat: no-repeat;
 
 }
 
